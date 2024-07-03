@@ -1,0 +1,6 @@
+# Directories
+archive/
+TestData/
+
+# pycache in packages directory
+packages/**/__pycache__/
