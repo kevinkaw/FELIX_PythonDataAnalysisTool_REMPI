@@ -45,7 +45,7 @@ class depletion:
         self.scan_width_range_indices = np.where((self.mass >= scan_width_min)&(self.mass <=scan_width_max))[0]
         # x_mass is the calibrated x-range of the plot.
         # It was declared just after the Part2 heading.
-        print(mass_isotope, scan_width_min, scan_width_max)
+        # print(mass_isotope, scan_width_min, scan_width_max)
         return self.scan_width_range_indices
 
     def get_actual_mass_peak(self, mass_input=None):
